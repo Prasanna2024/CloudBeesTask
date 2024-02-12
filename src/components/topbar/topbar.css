@@ -1,0 +1,18 @@
+.top-bar {
+    background-color: #3498db;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text {
+}

@@ -1,0 +1,94 @@
+.card-container {
+    height: 250px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #1B1A55;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 2px 3px 12px 3px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 2px 3px 12px 3px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 2px 3px 12px 3px rgba(0, 0, 0, 0.46);
+}
+
+.card-container:hover {
+    scale: 1.05;
+    background-color: #211f7d;
+}
+
+.image-container {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    border: solid aqua 2px;
+    cursor: pointer;
+}
+
+.image-container:hover {
+    scale: 1.01;
+}
+
+.image-container img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.details {
+    height: 90px;
+    width: 200px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.username {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: white;
+}
+
+.followers {
+    color: pink;
+    height: 60px;
+    width: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.following {
+    color: yellow;
+    height: 60px;
+    width: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px 0px 10px 0px;
+    text-decoration: none !important;
+}
+
+.followers:hover,
+.following:hover {
+    scale: 1.03;
+    cursor: pointer;
+}
+
+p,
+label {
+    text-decoration: none !important;
+}
