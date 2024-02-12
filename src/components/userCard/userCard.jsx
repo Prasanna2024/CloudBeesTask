@@ -15,7 +15,7 @@ function UserCard({ userData }) {
         }
         fetchData();
     },[])
-    console.log(userData)
+    // console.log(userData)
     return (
         <div className='card-container'>
             <div className="image-container">
