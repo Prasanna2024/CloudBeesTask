@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { getUser } from '../apis/api';
 function UserDetails() {
     const { item } = useParams();
-    console.log(item)
+    // console.log(item)
     const [userData, setUserData] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
